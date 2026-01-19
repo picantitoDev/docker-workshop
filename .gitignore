@@ -6,6 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
+
+# Parquet files
+*.parquet
+
 # Distribution / packaging
 .Python
 build/
