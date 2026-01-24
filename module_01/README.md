@@ -56,7 +56,7 @@ services:
     image: dpage/pgadmin4:latest
     environment:
       PGADMIN_DEFAULT_EMAIL: "pgadmin@pgadmin.com"
-      PGADMIN_DEFAULT_PASSWORD: "pgadmin"
+      PGADMIN_DEFAULT_PASSWORD: "root"
     ports:
       - "8080:80"
     volumes:
@@ -221,3 +221,4 @@ Piero Alcantara
 
 ## Date
 January 2026
+
